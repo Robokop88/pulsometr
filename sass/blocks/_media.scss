@@ -54,7 +54,7 @@
 
     .benefits {
 
-        &__header {
+        .title {
             font-size: 25px;
         }
 
@@ -152,10 +152,12 @@
 
     .benefits {
 
-        &__header {
+        padding: 50px 0 25px 0;
+
+        .title {
             font-size: 20px;
         }
-
+   
         &__wrapper {
             display: flex;
             flex-direction: column;
@@ -163,18 +165,21 @@
         }
 
         &__item {
-            width: 200px;
-            margin-bottom: 20px;
+            width: 100%;
+            margin-bottom: 45px;
         }
 
         &__subtitle {
             margin-top: 15px;
-            font-size: 14px;
+            font-size: 16px;
         }
 
         &__text {
             margin-top: 10px;
-            font-size: 12px;
+            font-size: 14px;
+            br {
+                display: none;
+            }
         }
     }
 
