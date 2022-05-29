@@ -177,12 +177,81 @@
         &__text {
             margin-top: 10px;
             font-size: 14px;
-            
         }
     }
 
 
 }
-    
+
+@media (max-width: 991px) {
+    .consultation {
+        .title {
+            &_left {
+                font-size: 32px;
+            }
+        }
+        &__text {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .consultation {
+
+        .title {
+            &_left {
+                font-size: 28px;
+                margin-left: 30px;
+            }
+        }
+
+        &__text {
+            font-size: 18px;
+            margin-left: 30px;
+        }
+
+        .feed-form {
+            margin-left: 30px;
+            width: 250px;
+        } 
+    }
+
+}
+
+@media (max-width: 575px) {
+    .consultation {
 
 
+        .title {
+            &_left {
+                font-size: 13px;
+                
+              
+            }
+        }
+
+        &__text {
+            font-size: 13px;
+            margin-top: 15px;
+      
+        }
+
+        .feed-form {
+            width: 220px;
+            input {
+                height: 35px;
+            }
+
+            .button {
+                &_submit {
+                    height: 35px;
+                    font-size: 14px;
+
+                }
+            }
+
+        } 
+    }
+
+}
