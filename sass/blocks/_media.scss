@@ -188,11 +188,17 @@
         .title {
             &_left {
                 font-size: 32px;
+                margin-left: 30px;
             }
         }
         &__text {
             font-size: 18px;
+            margin-left: 30px;
         }
+
+        .feed-form {
+            margin-left: 30px;
+        } 
     }
 }
 
@@ -244,7 +250,6 @@
                 &_submit {
                     height: 35px;
                     font-size: 14px;
-
                 }
             }
         } 
