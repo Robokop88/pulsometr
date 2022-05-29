@@ -12,9 +12,6 @@
             flex-direction: column;
             align-items: center;
         }
-
-        
-
     }
 
     .benefits {
@@ -34,12 +31,9 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-
-            
             &__logo{
                 width: 200px;
             }
-
         }
 
         &__header {
@@ -49,7 +43,6 @@
         &__subheader {
             font-size: 20px;
         } 
-
     }
 
     .benefits {
@@ -70,7 +63,6 @@
             font-size: 10px;
         }
     }
-
 }
 
 @media (max-width: 575px) {
@@ -84,12 +76,14 @@
             &__logo{
                 display: none;
             }
+
             &__official {
                 font-size: 11px;
                 span {
                     font-size: 12px;
                 }
             }
+
             &__phone {
                 margin-top: 10px;
                 font-size: 12px;
@@ -97,6 +91,7 @@
                     pointer-events: none;
                 }
             }
+
             &__contacts {
                 display: flex;
                 flex-direction: column;
@@ -146,12 +141,10 @@
                 height: 35px;
                 font-size: 14px;
             }
-        
         }
     }
 
     .benefits {
-
         padding: 50px 0 25px 0;
 
         .title {
@@ -179,8 +172,6 @@
             font-size: 14px;
         }
     }
-
-
 }
 
 @media (max-width: 991px) {
@@ -191,6 +182,7 @@
                 margin-left: 30px;
             }
         }
+
         &__text {
             font-size: 18px;
             margin-left: 30px;
@@ -237,7 +229,6 @@
         &__text {
             font-size: 15px;
             margin-top: 15px;
-      
         }
 
         .feed-form {
@@ -254,5 +245,4 @@
             }
         } 
     }
-
 }
