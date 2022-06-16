@@ -27,8 +27,6 @@ const slider = tns({
   responsive: {
     991: {
       items: 1,
-      autoplay: true,
-      autoplayTimeout: 400,
     }
   }
 });
