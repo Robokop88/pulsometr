@@ -214,7 +214,6 @@
             width: 250px;
         } 
     }
-
 }
 
 @media (max-width: 575px) {
@@ -246,3 +245,20 @@
         } 
     }
 }
+ 
+
+
+@media (max-width: 991px) {
+    .carousel {
+        img {
+            width: 80%;
+        }
+        .prev, .next {
+            display: none;
+        }
+        .tns-nav {
+            display: block;
+        }
+    }
+}
+
