@@ -22,11 +22,10 @@ const slider = tns({
   items: 1,
   slideBy: 'page',
   autoplay: false,
-  speed: 200,
   controls: false,
   responsive: {
     991: {
-      items: 1,
+      items: 1
     }
   }
 });
